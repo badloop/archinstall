@@ -27,19 +27,19 @@
     "packages": [
         "bc",
         "curl",
+        "dkms",
+        "docker",
         "dunst",
         "flameshot",
         "git",
         "go",
         "htop",
-        "i3-gaps",
-        "i3-lock",
+        "i3lock",
         "i3-wm",
         "i3blocks",
         "i3status",
         "jq",
         "lightdm",
-        "lightdm-webkit-theme-aether",
         "lightdm-webkit2-greeter",
         "lua-language-server",
         "nitrogen",
@@ -50,6 +50,7 @@
         "ripgrep",
         "rofi",
         "rust",
+        "sshd",
         "smartmontools",
         "tmux",
         "vim",
@@ -59,11 +60,11 @@
         "wpa_supplicant",
         "xdg-utils",
         "zsh",
-        "zsh-completions"
+        "zsh-completions",
+        "xorg-server",
+        "xorg-xinit",
+        "nvidia-dkms"
     ],
-    "profile": {
-        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
-    },
     "silent": false,
     "sys-encoding": "utf-8",
     "sys-language": "en_US"
