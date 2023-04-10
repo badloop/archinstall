@@ -1,0 +1,36 @@
+{
+    "audio": "pulseaudio",
+    "config_version": "2.5.4",
+    "custom_commands": [
+    	"git config --global user.name \"Aaron Dunlap\"",
+	"git config --global user.email \"aaronmdunlap@gmail.com\""
+    ],
+    "debug": false,
+    "desktop-environment": "i3",
+    "gfx_driver": "AMD / ATI (open-source)",
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "git",
+        "curl",
+        "wget",
+        "python",
+        "go",
+        "rust",
+        "nodejs",
+        "npm",
+        "bc",
+        "jq"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "version": "2.5.4"
+}
