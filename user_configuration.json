@@ -5,7 +5,7 @@
         "git config --global user.name \"Aaron Dunlap\"",
         "git config --global user.email \"aaronmdunlap@gmail.com\"",
         "echo \"alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'\" >> .bashrc",
-        "git clone https://github.com/badloop/dotfiles.git $HOME/.cfg",
+        "git clone --bare https://github.com/badloop/dotfiles.git $HOME/.cfg",
         "git clone https://aur.archlinux.org/yay.git",
         "chown -R aaron:aaron yay",
         "cd yay",
@@ -20,7 +20,7 @@
     ],
     "hostname": "arch",
     "nic": {
-        "type": "iso"
+        "type": "network_manager"
     },
     "no_pkg_lookups": false,
     "offline": false,
