@@ -10,7 +10,7 @@
         "chown -R aaron:aaron yay",
         "cd yay",
         "makepkg -si",
-        "yay -Sy wezterm-git neovim-nightly brave-bin picom-jonaburg-git",
+        "yay -Sy wezterm-git neovim-nightly brave-bin picom-jonaburg-git 1password",
         "nvim --headless \"+Lazy! sync\" +qa"
     ],
     "debug": false,
@@ -51,6 +51,7 @@
         "smartmontools",
         "tmux",
         "vim",
+        "weechat",
         "wget",
         "wireless_tools",
         "wpa_supplicant",
