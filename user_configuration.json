@@ -20,7 +20,7 @@
     ],
     "hostname": "arch",
     "nic": {
-        "type": "network_manager"
+        "type": "nm"
     },
     "no_pkg_lookups": false,
     "offline": false,
