@@ -19,7 +19,9 @@
         "/dev/sda"
     ],
     "hostname": "arch",
-    "nic": "Copy ISO network configuration to installation",
+    "nic": {
+        "type": "Copy ISO network configuration to installation"
+    },
     "no_pkg_lookups": false,
     "offline": false,
     "packages": [
