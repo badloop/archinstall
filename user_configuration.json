@@ -2,10 +2,7 @@
     "audio": "pulseaudio",
     "bootloader": "systemd-bootctl",
     "custom-commands": [
-        "su - aaron",
-        "git config --global user.name \"Aaron Dunlap\"",
-        "git config --global user.email \"aaronmdunlap@gmail.com\"",
-        "echo \"alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'\" >> .bashrc",
+        "su aaron",
         "git clone --bare https://github.com/badloop/dotfiles.git $HOME/.cfg",
         "source ~/.bashrc",
         "config checkout",
