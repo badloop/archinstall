@@ -19,6 +19,7 @@
         "/dev/sda"
     ],
     "hostname": "arch",
+    "keyboard-language": "us",
     "nic": {
         "type": "nm"
     },
