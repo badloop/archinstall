@@ -2,7 +2,7 @@
     "audio": "pulseaudio",
     "bootloader": "systemd-bootctl",
     "custom-commands": [
-        "sudo su - aaron",
+        "su - aaron",
         "git config --global user.name \"Aaron Dunlap\"",
         "git config --global user.email \"aaronmdunlap@gmail.com\"",
         "echo \"alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'\" >> .bashrc",
