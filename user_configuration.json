@@ -2,15 +2,13 @@
     "audio": "pulseaudio",
     "bootloader": "systemd-bootctl",
     "custom-commands": [
-        "su aaron",
-        "git clone --bare https://github.com/badloop/dotfiles.git $HOME/.cfg",
-        "source ~/.bashrc",
-        "config checkout",
-        "git clone https://aur.archlinux.org/yay.git",
-        "cd yay",
-        "makepkg -si",
-        "yay -Sy wezterm-git neovim-nightly brave-bin picom-jonaburg-git 1password",
-        "nvim --headless \"+Lazy! sync\" +qa"
+        "sudo -u aaron git clone --bare https://github.com/badloop/dotfiles.git /home/aaron/.cfg",
+        "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron checkout",
+        "sudo -u aaron git clone https://aur.archlinux.org/yay.git /home/aaron/yay",
+        "cd /home/aaron/yay",
+        "sudo -u aaron makepkg -si",
+        "sudo -u aaron yay -Sy wezterm-git neovim-nightly brave-bin picom-jonaburg-git 1password",
+        "sudo -u aaron nvim --headless \"+Lazy! sync\" +TSUpdate +qa"
     ],
     "debug": false,
     "gfx_driver": "AMD / ATI (open-source)",
