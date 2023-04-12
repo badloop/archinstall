@@ -3,7 +3,7 @@
     "bootloader": "systemd-bootctl",
     "custom-commands": [
         "sudo -u aaron git clone --bare https://github.com/badloop/dotfiles.git /home/aaron/.cfg",
-        "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron clean -d -f /home/aaron",
+        "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron clean -d -f -e .cfg /home/aaron",
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron checkout",
         "sudo -u aaron git clone https://aur.archlinux.org/yay.git /home/aaron/yay",
         "cd /home/aaron/yay",
