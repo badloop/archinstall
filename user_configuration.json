@@ -63,15 +63,8 @@
         "xorg-server",
         "xorg-xinit",
         "zsh",
-        "zsh-completions",
+        "zsh-completions"
     ],
-    {
-    "plugin" : "https://raw.githubusercontent.com/Torxed/archinstall-aur/main/archinstall_aur/__init__.py",
-    "packages" : [
-        "nano",
-        "wget",
-        "yay-bin"
-    ]
     "silent": false,
     "sys-encoding": "utf-8",
     "sys-language": "en_US"
