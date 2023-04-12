@@ -6,6 +6,7 @@
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron clean -d -f -e .cfg /home/aaron",
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron checkout",
         "sudo -u aaron git clone https://aur.archlinux.org/yay.git /home/aaron/yay",
+        "chown -R aaron:aaron /home/aaron/yay",
         "cd /home/aaron/yay",
         "sudo -u aaron makepkg -si",
         "sudo -u aaron yay -Sy wezterm-git neovim-nightly brave-bin picom-jonaburg-git 1password",
