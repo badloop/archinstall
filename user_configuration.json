@@ -51,6 +51,7 @@
         "nvidia-dkms",
         "openssh",
         "picom-jonaburg-git",
+        "playerctl",
         "python",
         "ripgrep",
         "rofi",
