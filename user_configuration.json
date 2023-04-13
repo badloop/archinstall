@@ -2,7 +2,8 @@
     "audio": "pulseaudio",
     "bootloader": "systemd-bootctl",
     "custom-commands": [
-        "sudo -u aaron git clone --bare https://github.com/badloop/dotfiles.git /home/aaron/.cfg",
+        "sudo -u aaron /usr/bin/git clone --bare https://github.com/badloop/dotfiles.git /home/aaron/.cfg",
+        "sudo -u aaron /usr/bin/git clone https://github.com/pyenv/pyenv.git /home/aaron/.pyenv",
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron clean -d -f -e .cfg /home/aaron",
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron checkout",
         "sudo -u aaron nvim --headless \"+Lazy! sync\" +TSUpdate +qa"
@@ -22,8 +23,10 @@
     "offline": false,
     "packages": [
         "1password",
+        "alacritty",
         "bc",
         "brave-bin",
+        "cider",
         "curl",
         "discord",
         "dkms",
@@ -53,6 +56,9 @@
         "rofi",
         "rust",
         "smartmontools",
+        "starship",
+        "ttf-jetbrains-mono-nerd",
+        "ttf-hack-nerd",
         "tmux",
         "vim",
         "weechat",
