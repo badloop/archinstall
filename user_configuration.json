@@ -7,6 +7,8 @@
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron clean -d -f -e .cfg /home/aaron",
         "sudo -u aaron /usr/bin/git --git-dir=/home/aaron/.cfg/ --work-tree=/home/aaron checkout",
         "sudo -u aaron mkdir -p /home/aaron/.tmux/plugins",
+        "sudo -u aaron mkdir -p /home/aaron/code/home",
+        "sudo -u aaron mkdir -p /home/aaron/code/work",
         "sudo -u aaron /usr/bin/git clone https://github.com/tmux-plugins/tpm /home/aaron/.tmux/plugins/tpm",
         "sudo -u aaron nvim --headless \"+Lazy! sync\" +TSUpdate +qa"
     ],
